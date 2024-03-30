@@ -1,0 +1,98 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Work Sans", sans-serif;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+:root {
+  --White: hsl(0, 0%, 100%);
+  --Light-pink: hsl(275, 100%, 97%);
+  --Grayish-purple: hsl(292, 16%, 49%);
+  --Dark-purple: hsl(292, 42%, 14%);
+}
+
+body {
+  font-size: 16px;
+  background-color: var(--Light-pink);
+}
+
+.bg-img {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: -1;
+}
+
+.app {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  padding: 25px 20px;
+  margin: 150px 20px;
+  border-radius: 10px;
+  gap: 25px;
+}
+
+.star {
+  width: 30px;
+}
+
+.title {
+  display: flex;
+  gap: 20px;
+  font-size: 1.5rem;
+}
+
+.accordion {
+  width: 100%;
+}
+
+.accordion-item {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: space-between;
+  margin-bottom: 25px;
+}
+
+.question-text {
+  font-weight: 600;
+  font-size: 1.1rem;
+  text-align: left;
+}
+
+.accordion-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.accordion-content {
+  color: var(--Grayish-purple);
+  line-height: 1.5;
+  display: none;
+  overflow: hidden;
+}
+
+.accordion-header:hover {
+  color: hsl(292, 48%, 47%);
+}
+
+.plus-icon {
+  width: 45px;
+  visibility: visible;
+}
+
+.minus-icon {
+  width: 45px;
+  display: none;
+}

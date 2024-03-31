@@ -154,7 +154,7 @@ body {
   .app {
     background-color: white;
     display: flex;
-    max-width: 35em;
+    min-width: 35em;
     flex-direction: column;
     border-radius: 10px;
     padding-bottom: 0px;

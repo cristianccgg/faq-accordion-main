@@ -9,7 +9,7 @@ for (i = 0; i < acc.length; i++) {
 
     /* Toggle between hiding and showing the active panel */
     var panel = this.nextElementSibling;
-    panel.style.display=(panel.style.display === "block")?"none":"block";
+    // panel.style.display = panel.style.display === "block" ? "none" : "block";
     if (panel.style.display === "block") {
       panel.style.display = "none";
     } else {

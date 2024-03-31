@@ -132,15 +132,16 @@ body {
     justify-content: center;
     font-size: 16px;
     background-color: var(--Light-pink);
-    min-height: 100vh;
     position: relative;
     padding: auto 30px;
+    margin-top: 150px;
   }
 
   .bg-img2 {
     display: block;
     position: absolute;
     width: 100%;
+    margin-top: -150px;
     top: 0;
     right: 0;
     left: 0;
@@ -154,7 +155,7 @@ body {
   .app {
     background-color: white;
     display: flex;
-    min-width: 35em;
+    width: 35em;
     flex-direction: column;
     border-radius: 10px;
     padding-bottom: 0px;
@@ -191,7 +192,7 @@ body {
   }
 
   .attribution {
-    position: absolute;
-    bottom: 0;
+    position: inherit;
+    margin-top: 150px;
   }
 }
